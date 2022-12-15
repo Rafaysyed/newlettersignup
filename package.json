@@ -1,0 +1,20 @@
+{
+  "name": "newsletter-signup",
+  "version": "1.0.0",
+  "description": "news letters application using mailchimp and node ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Syed Abdur Rafay",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/mailchimp__mailchimp_transactional": "^1.0.5"
+  }
+}
